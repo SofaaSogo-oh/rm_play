@@ -634,3 +634,5 @@ INFO:werkzeug: * Restarting with stat
 INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db

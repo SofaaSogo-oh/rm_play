@@ -1,6 +1,7 @@
 from sqlalchemy import orm
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from flask_restful import abort
+from datetime import datetime
 
 from sqlalchemy import UniqueConstraint
 
@@ -15,6 +16,7 @@ class User(SqlAlchemyBase, UserMixin):
     id: Mapped[int] = mapped_column(primary_key=True)
     login: Mapped[str] = mapped_column(unique=True)
     password: orm.Mapped[str]
+    register_date: Mapped[datetime]
     roles: Mapped[list[Role]] = relationship(secondary="user_role")
 
     def set_password(self, password):

@@ -13,6 +13,7 @@ phone_number_domain = DOMAIN("phone_num", sa.Text, check="VALUE ~ '^[+]?[0-9]{10
 class PersonalData(SqlAlchemyBase):
     __tablename__ = "personal_data"
 
+    id: Mapped[int] = mapped_column(primary_key=True)
     user_id: Mapped[int] = mapped_column(sa.ForeignKey("user.id"))
     user: Mapped[User] = relationship()
 
