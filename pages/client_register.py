@@ -7,7 +7,7 @@ from flask_login import login_user
 from pages.forms import RegisterForm
 from sqlalchemy.exc import IntegrityError
 
-register = Blueprint("register", __name__,
+register_blueprint = Blueprint("register", __name__,
                      template_folder="template")
 
 def convert_error(err: IntegrityError) -> str:
@@ -15,8 +15,8 @@ def convert_error(err: IntegrityError) -> str:
     if "unique constraint" in err and "user_login_key" in err_:
         return "пользователь с таким логином существует"
 
-@register.route("/client/register", methods=["GET", "POST"])
-def registration():
+@register_blueprint.route("/client/register", methods=["GET", "POST"])
+def register():
     nxt_redir = lambda: redirect("/personal_page")
     if flask_login.current_user.is_authenticated:
         return nxt_redir()

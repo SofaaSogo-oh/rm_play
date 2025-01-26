@@ -22,6 +22,6 @@ def main():
 
 if __name__ == "__main__":
     db_session.global_init("randomp_db")
-    app.register_blueprint(client_register.register)
-    app.register_blueprint(login.login)
+    app.register_blueprint(client_register.register_blueprint)
+    app.register_blueprint(login.login_blueprint)
     app.run(debug=True)

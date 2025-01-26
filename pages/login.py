@@ -7,16 +7,16 @@ from flask_login import login_user
 from pages.forms import LoginForm
 from sqlalchemy.exc import IntegrityError
 
-login = Blueprint("login", __name__,
+login_blueprint = Blueprint("login", __name__,
                   template_folder="template")
 
-@login.route("/login", methods=["GET", "POST"])
+@login_blueprint.route("/login", methods=["GET", "POST"])
 def login():
     nxt_redir = lambda: redirect("/personal_page")
     if flask_login.current_user.is_authenticated:
         return nxt_redir()
     form = LoginForm()
-    render_err = lambda msg: render_template("register.html", message=msg, form=form)
+    render_err = lambda msg: render_template("login.html", message=msg, form=form)
     if form.validate_on_submit():
         with db_session.create_session() as session:
             current_user = session.query(User).filter(User.login == form.login.data).first()
