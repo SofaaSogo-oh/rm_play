@@ -1,0 +1,577 @@
+INFO:root:Подключение к базе данных по адресу postgresql://postgre:postgre@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgre:postgre@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:01:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:01:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:main:Exception on /api/user [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\scoop\apps\python\current\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\scoop\apps\python\current\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\User\scoop\apps\python\current\Lib\site-packages\flask_restful\__init__.py", line 489, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\User\scoop\apps\python\current\Lib\site-packages\flask\views.py", line 110, in view
+    return current_app.ensure_sync(self.dispatch_request)(**kwargs)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\User\scoop\apps\python\current\Lib\site-packages\flask_restful\__init__.py", line 604, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "c:\Users\User\Documents\rm_play\api\user.py", line 46, in get
+    args = reg_login_parser.parse_args()
+TypeError: RequestParser.parse_args() missing 1 required positional argument: 'self'
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:04:01] "[35m[1mGET /api/user HTTP/1.1[0m" 500 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:05:33] "[35m[1mGET /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\parsers\\reg_login_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:12:03] "[31m[1mGET /api/user HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:12:23] "[31m[1mGET /api/user HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:12:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:13:14] "[31m[1mGET /api/user HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:13:20] "[31m[1mGET /api/user HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:14:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:16:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:16:20] "[31m[1mGET /api/user HTTP/1.1[0m" 415 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:16:41] "[31m[1mGET /api/user HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:17:50] "[31m[1mGET /api/user?login="foo" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:20:20] "GET /api/user?login="foo" HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:20:47] "[31m[1mGET /api/user?login="foo" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:21:03] "[31m[1mGET /api/user?login="foo" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:21:04] "[31m[1mGET /api/user?login="foo" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:22:30] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:22:34] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:10] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:33] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:34] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:34] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:35] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:35] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:35] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:35] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:35] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:57] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:24:58] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:25:13] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:25:27] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:25:28] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:25:29] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:25:32] "[31m[1mGET /api/user?login="foo"&password="bar" HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:29:19] "GET /api/user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:30:00] "[35m[1mGET /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:32:37] "[35m[1mGET /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:33:49] "[33mGET /api/user HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:34:12] "[33mGET /api/user HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:40:07] "POST /api/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:40:14] "[33mGET /api/user HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:40:38] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:41:21] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:42:47] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:43:37] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:45:07] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:47:47] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:48:33] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:49:41] "[35m[1mPOST /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\token.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\token.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:50:18] "POST /api/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:50:22] "[33mPOST /api/user HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:50:31] "[35m[1mGET /api/user HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:50:53] "GET /api/user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:51:08] "GET /api/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:51:10] "GET /api/user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 19:51:39] "GET /api/user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\db_session.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-553-590
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\api\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 18:20:54] "[35m[1mPOST /api/user/reg HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 18:29:25] "[35m[1mPOST /api/user/reg HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 18:36:10] "POST /api/user/reg HTTP/1.1" 200 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:55] "[33mGET /client/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:59] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:59] "GET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:59] "GET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:59] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=FgxZqQmrsc99f716v5iV HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:28:59] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:38:09] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:38:09] "GET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:38:09] "GET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:38:09] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:38:09] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=tITrdUx4f3IGB6OEyvFk HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:39:37] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:39:37] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:39:37] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:39:37] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=aCRMfDwt6UTbBDG9MZCw HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:42:52] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:42:52] "GET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:42:52] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:42:52] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=Q79kDXa6RoPTmWqZLjl9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:42:52] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:50:46] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:50:46] "GET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:50:46] "GET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:50:46] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:50:46] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=1l3dCUTnHy1O4W3wo06R HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:51:26] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:51:26] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:51:26] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:51:26] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=MkIE3Y3lCZLGRcDWjEme HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:52:17] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:52:17] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:52:17] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:52:17] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=hWbHKENBhu9xSRqxaDgy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:12] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:12] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:12] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:13] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=hWbHKENBhu9xSRqxaDgy HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:20] "[35m[1mGET /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:20] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:20] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:20] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=hWbHKENBhu9xSRqxaDgy HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:38] "GET /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:38] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:38] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:58] "GET /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:58] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 22:53:58] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:08:06] "[35m[1mPOST /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:08:06] "GET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:08:06] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:08:07] "[36mGET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=hWbHKENBhu9xSRqxaDgy HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:09:14] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:09:14] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:09:14] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\user.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:11:37] "[32mPOST /client/register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:11:37] "[33mGET /client/personal_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:37:25] "[32mGET /client/register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:37:25] "[33mGET /client/personal_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:37:43] "GET /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:37:43] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:37:43] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:23] "[32mPOST /client/register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:23] "[33mGET /client/personal_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:36] "GET /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:36] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:36] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:46] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:46] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:38:46] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:42:47] "[35m[1mPOST /client/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:42:47] "GET /client/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:42:47] "GET /client/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:42:47] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:42:47] "GET /client/register?__debugger__=yes&cmd=resource&f=console.png&s=GhDnVXiZIah6iSY7VYrl HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:43:30] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:43:30] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:43:30] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:45:15] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:45:15] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:45:15] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:45:25] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:45:25] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Jan/2025 23:45:25] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -

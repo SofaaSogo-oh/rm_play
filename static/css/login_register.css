@@ -1,0 +1,8 @@
+.login_form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    background-color: #e2e9ec;
+    border-radius: 5px;
+    padding: 10px;
+}

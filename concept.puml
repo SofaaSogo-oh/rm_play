@@ -1,0 +1,68 @@
+@startuml concept
+
+entity user as "Пользователь" {
+  +id(pk)
+  +login
+  +password
+  +registration_date
+} 
+entity personal_data as "Персональные данные" {
+  +first_name
+  +last_name
+  +middle_name
+  +phone_number
+  ~date_of_birth
+  ~address
+  +user_id(fk)
+}
+entity role as "Роли" {
+  +id(pk)
+  +name
+  ~description
+}
+entity privilege as "Привелегии" {
+  +id(pk)
+  +name
+  ~description
+}
+entity movie as "Фильмы" {
+  +id(pk)
+  +name
+  +price
+  ~description
+}
+entity tape as "Кассета" {
+  +id(pk)
+  +movie_id(fk)
+}
+entity client as "Клиент" {
+  +user_id(fk)
+  +notification_settings
+  +subscription_status
+}
+entity rent as "Аренда" {
+  +id(pk)
+  +date_beg
+  +date_end
+  +client_id(fk)
+}
+entity rental_store as "Точка проката" {
+  +id(pk)
+  +address
+  ~description
+}
+entity employee as "Сотрудник" {
+  +user_id(fk)
+}
+
+user -- personal_data
+user -- client
+user -- employee
+client --{ rent
+role }--{ privilege
+role }--{ employee
+tape }-- rent
+tape }-- movie
+rental_store --{ tape
+
+@enduml

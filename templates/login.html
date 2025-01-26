@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+    <h1>Вход</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.id_name.label }} <br>
+            {{ form.id_name(class="form-control") }} <br>
+            {% for error in form.id_name.errors %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.password.label }} <br>
+            {{ form.password(class="form-control", type="password") }} <br>
+            {% for error in form.password.errors %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        </div>
+        <p> {{ form.remember_me() }} {{ form.remember_me.label() }} </p>
+        <p> {{ form.submit(type="submit", class="btn btn-primary") }} </p>
+        {% if message %}
+            <div class="alert alert-warning">{{ message }} </div>
+        {% endif %}
+    </form>
+{% endblock %}

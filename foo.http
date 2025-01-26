@@ -1,0 +1,19 @@
+@base_url = http://localhost:5000/api
+
+GET {{base_url}}/user
+Content-Type: application/json
+
+{
+    "login": "fuck",
+    "password": "you"
+}
+
+###
+
+POST {{base_url}}/user/reg HTTP/1.1
+Content-Type: application/json
+
+{
+    "login": "fuck",
+    "password": "you"
+}

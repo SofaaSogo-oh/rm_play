@@ -1,0 +1,79 @@
+@startuml
+!theme reddress-darkblue
+
+entity "Пользователь" as user {
+  +id(pk)
+  +login
+  +password
+  +registration_date
+} 
+
+entity "Персональные данные" as personal_data {
+  +first_name
+  +last_name
+  +middle_name
+  +phone_number
+  ~date_of_birth
+  ~address
+  +user_id(fk)
+}
+
+entity "Роли" as role {
+  +id(pk)
+  +name
+  ~description
+}
+
+entity "Привелегии" as privilege {
+  +id(pk)
+  +name
+  ~description
+}
+
+entity "Фильмы" as movie {
+  +id(pk)
+  +name
+  +price
+  ~description
+}
+
+entity "Кассета" as tape {
+  +id(pk)
+  +movie_id(fk)
+}
+
+entity "Клиент" as client {
+  +user_id(fk)
+  +notification_settings
+  +subscription_status
+}
+
+entity "Аренда" as rent {
+  +id(pk)
+  +date_beg
+  +date_end
+  +client_id(fk)
+}
+
+entity "Точка проката" as rental_store {
+  +id(pk)
+  +address
+  ~description
+}
+
+entity "Сотрудник" as employee {
+  +user_id(fk)
+}
+
+user ||--o{ personal_data : 1-1
+user ||--o{ client : 1-1
+user ||--o{ employee : 1-1
+client ||--o{ rent : 1-N
+role ||--o{ privilege : N-N
+role ||--o{ employee : N-N
+tape ||--o{ rent : N-N
+tape }|--o{ movie : 1-N
+rental_store ||--o{ tape : 1-N
+
+
+@enduml

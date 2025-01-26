@@ -1,0 +1,38 @@
+h1 {
+  color: #5a5a5a;
+  text-align: center;
+}
+
+div.in_bar {
+    display: flex;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.links_in_bar {
+    color: #DDDDDD;
+    transition: all 0.3s ease;
+}
+
+a.links_in_bar:hover {
+    color: #FFFFFF;
+}
+
+a.personal {
+    color: #f6b147;
+    transition: all 0.3s ease;
+}
+
+a.personal:hover {
+    color: #d8ac6a;
+    background-color: #5287a1;
+}
+
+#headerMain {
+    height: 100px;
+    margin:0px auto;
+    z-index:0;
+}
