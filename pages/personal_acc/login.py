@@ -1,16 +1,7 @@
-from flask import Blueprint, render_template, redirect
+from .package import *
 from data.user import User
-from data.client import Client
-from data import db_session
-import flask_login
-from flask_login import login_user
-from pages.forms import LoginForm
-from sqlalchemy.exc import IntegrityError
 
-login_blueprint = Blueprint("login", __name__,
-                  template_folder="template")
-
-@login_blueprint.route("/login", methods=["GET", "POST"])
+@personal_acc_blueprint.route("/login", methods=["GET", "POST"])
 def login():
     nxt_redir = lambda: redirect("/personal_page")
     if flask_login.current_user.is_authenticated:

@@ -23,4 +23,3 @@ class PersonalData(SqlAlchemyBase):
 
     phone_namber: Mapped[str] = mapped_column(phone_number_domain)
     date_of_birth: Mapped[date | None]
-    address: Mapped[str | None]

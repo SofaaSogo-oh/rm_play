@@ -1,0 +1,55 @@
+/* Общие стили для всех input, включая текстовые поля и кнопки */
+input {
+    padding: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-top-color: #96a27f;
+    border-left-color: #96a27f;
+    border-bottom-color: #493131;
+    border-right-color: #493131;
+    background-color: #2c1f1f;
+    font-family: "MS Sans Serif", sans-serif;
+    font-size: 12px;
+    box-shadow: inset 1px 1px #0e0d15;
+    color: #96a27f;
+    box-sizing: border-box;
+  }
+  
+  
+  input:focus {
+      outline: none; /* Убираем дефолтную обводку фокуса */
+      border-top-color: #75234e;
+      border-left-color: #75234e;
+      border-bottom-color: #ad3235;
+      border-right-color: #ad3235;
+      background-color: #0e0d15;
+  }
+  
+  /* Стили для текстовых полей (text, password, email и т.д.) */
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  textarea {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Стили для кнопок */
+  input[type="submit"],
+  input[type="button"],
+  button {
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="button"]:hover,
+  button:hover {
+      border-top-color: #808080;
+      border-left-color: #808080;
+      border-bottom-color: #fff;
+      border-right-color: #fff;
+  }

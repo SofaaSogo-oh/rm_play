@@ -636,3 +636,463 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 114-667-252
 INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
 INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\personal_data.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:08:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:55:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:55:36] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:55:36] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:55:36] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:55:36] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:55:36] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=jhJ9CLVabczgAmzqAxms HTTP/1.1" 200 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:07] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:08] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:08] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:13] "[33mGET /register HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:31] "GET /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:31] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:56] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:57:56] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:58:52] "POST /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:58:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:58:52] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\client_register.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:59:36] "[32mPOST /client/register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 19:59:36] "[33mGET /personal_page HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\personal_page.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\personal_page.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:32:36] "[33mGET /personal_page HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:33:43] "[35m[1mGET /personal_page HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:33:43] "GET /personal_page?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:33:43] "GET /personal_page?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:33:43] "GET /personal_page?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:33:43] "GET /personal_page?__debugger__=yes&cmd=resource&f=console.png&s=Mv7M7xj5FuY7DOFZ9H2y HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\personal_page.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:18] "[35m[1mGET /personal_page HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:18] "GET /personal_page?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:18] "GET /personal_page?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:18] "GET /personal_page?__debugger__=yes&cmd=resource&f=console.png&s=CJuvvwiaOAjvNsMRtUFQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:26] "[32mGET /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:26] "[35m[1mGET /personal_page HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:26] "[36mGET /personal_page?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:26] "[36mGET /personal_page?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:35:26] "[36mGET /personal_page?__debugger__=yes&cmd=resource&f=console.png&s=CJuvvwiaOAjvNsMRtUFQ HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\personal_page.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:41:02] "GET /personal_page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:41:02] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:41:02] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:54:21] "GET /personal_page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:54:21] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:54:21] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:55:45] "GET /personal_page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:55:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 20:55:45] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:43:22] "GET /personal_page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:43:23] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:43:23] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:43:23] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:53:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:53:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:01] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:04] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:04] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:51] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:51] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:51] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:52] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:52] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:52] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:53] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:53] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:53] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:54] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:54] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:54:54] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:30] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:30] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:30] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:34] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:34] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:55:34] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:13] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:13] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:14] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:14] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:14] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:14] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:14] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:15] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:15] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:15] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:34] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:34] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:34] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:56:34] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:57:43] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:57:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:57:43] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:57:43] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:59:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:59:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:59:03] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 21:59:03] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:30] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:31] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:31] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:59] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:59] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:59] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:00:59] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:19] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:19] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:42] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:42] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:42] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:44] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:44] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:45] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:45] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:01:45] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:02:05] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:02:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:02:05] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:02:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:06:36] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:08:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:08:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:08:22] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:08:22] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:01] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:01] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:04] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:04] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:04] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:31] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:31] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:09:31] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:15:45] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:15:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:15:45] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:15:45] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:08] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:08] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:08] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:29] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:29] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:29] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:18:29] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:19:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:19:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:19:37] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:19:37] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:42:09] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:42:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:42:09] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:42:09] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:14] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:14] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:14] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:14] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:50] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:50] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:50] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:43:50] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:05] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:05] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:09] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:09] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:09] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:46] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:46] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:46] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:44:47] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:24] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:24] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:24] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:24] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:37] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:45:37] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:46:15] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:46:15] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:46:15] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:46:15] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:39] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:39] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:39] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:55] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:55] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:55] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:47:55] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:48:54] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:48:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:48:54] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:48:54] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:00] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:00] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:00] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:22] "[33mGET /register HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:49] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:49] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:49:49] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:58:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:58:59] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:58:59] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 22:58:59] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:04:46] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:04:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:04:46] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:04:46] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:06:11] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:06:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:06:11] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:06:11] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:08:33] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:08:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:08:33] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:08:33] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:09:18] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:09:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:09:18] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:09:18] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:22] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:22] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:35] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:35] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:10:35] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:11:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:11:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:11:03] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:11:03] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:00] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:00] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:00] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:00] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:21] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:21] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:21] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:44] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:44] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:57] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:57] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:12:57] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:04] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:04] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:04] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:04] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:27] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:28] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:28] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:52] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:53] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:53] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:14:53] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:22] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:22] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:40] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:40] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:15:40] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:11] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:11] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:11] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:14] "[33mGET /register HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:19] "GET /client/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:19] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:17:19] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:18:47] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:18:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:18:47] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:18:47] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:19:04] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:19:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:19:04] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:19:04] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:22:21] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:22:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:22:21] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:22:21] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:22:21] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:22:21] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:06] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:07] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:07] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:07] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:07] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:26:14] "[33mGET /register HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:42] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:43] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:43] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:43] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:43] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:50] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:51] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:51] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:51] "[33mGET /static/img/modeling.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jan/2025 23:27:51] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\client_register.py', reloading

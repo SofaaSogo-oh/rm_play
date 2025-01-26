@@ -1,0 +1,90 @@
+/* Общие стили для ссылок, имитирующих кнопки */
+.button-link {
+    padding: 4px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: "MS Sans Serif", sans-serif;
+    font-size: 12px;
+    box-shadow: inset 1px 1px #0e0d15;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+    color: inherit;  /* Добавлено: наследуем цвет от родительского элемента*/
+}
+
+.button-link:focus {
+    outline: none;
+}
+
+.button-link:active {
+    box-shadow: none;
+}
+
+
+/* Темная вариация (dark-button) */
+.button-link.dark-button {
+    border-top-color: #96a27f;
+    border-left-color: #96a27f;
+    border-bottom-color: #493131;
+    border-right-color: #493131;
+    background-color: #2c1f1f;
+    color: #96a27f;
+}
+
+.button-link.dark-button:focus {
+    border-top-color: #75234e;
+    border-left-color: #75234e;
+    border-bottom-color: #ad3235;
+    border-right-color: #ad3235;
+    background-color: #0e0d15;
+}
+
+.button-link.dark-button:hover {
+    border-top-color: #808080;
+    border-left-color: #808080;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+.button-link.dark-button:active {
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-bottom-color: #808080;
+    border-right-color: #808080;
+}
+
+/* Светлая вариация (light-button) */
+.button-link.light-button {
+    border-top-color: #767676;
+    border-left-color: #767676;
+    border-bottom-color: #d9d9d9;
+    border-right-color: #d9d9d9;
+    background-color: #d9d9d9;
+    color: #000;
+    box-shadow: inset 1px 1px #fff;
+}
+
+.button-link.light-button:focus {
+    border-top-color: #ad3235;
+    border-left-color: #ad3235;
+    border-bottom-color: #75234e;
+    border-right-color: #75234e;
+    background-color: #f2f2f2;
+     box-shadow: inset 1px 1px #0e0d15;
+}
+
+.button-link.light-button:hover {
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-bottom-color: #808080;
+    border-right-color: #808080;
+}
+
+.button-link.light-button:active {
+    border-top-color: #808080;
+    border-left-color: #808080;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}

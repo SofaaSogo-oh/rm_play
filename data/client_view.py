@@ -26,8 +26,6 @@ class PersonClientView(SqlAlchemyBase):
             PersonalData.first_name,
             PersonalData.last_name,
             PersonalData.middle_name,
-            PersonalData.address,
             PersonalData.date_of_birth,
             PersonalData.phone_namber,
-            PersonalData.address
         ).select_from(User.__table__.join(Client.__table__).join(PersonalData.__table__)))

@@ -3,7 +3,7 @@ from data import db_session
 from data.user import User
 from flask_restful import Api
 from flask_login import LoginManager
-from pages import client_register, login
+from pages.personal_acc import *
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "FOOBarGashaIsTheBest"
@@ -21,7 +21,6 @@ def main():
     return "FOO!"
 
 if __name__ == "__main__":
+    app.register_blueprint(personal_acc_blueprint)
     db_session.global_init("randomp_db")
-    app.register_blueprint(client_register.register_blueprint)
-    app.register_blueprint(login.login_blueprint)
     app.run(debug=True)

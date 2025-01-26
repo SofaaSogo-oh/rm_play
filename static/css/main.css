@@ -1,5 +1,5 @@
 h1 {
-  color: #5a5a5a;
+  color: #96a27f;
   text-align: center;
 }
 
@@ -35,4 +35,20 @@ a.personal:hover {
     height: 100px;
     margin:0px auto;
     z-index:0;
+}
+
+.space {
+  padding: 20px;
+  background: #0f0c15AA;
+  border-top: 3px solid #96a27f;
+  border-left: 3px solid #96a27f;
+  border-bottom: 4px solid #493131; 
+  border-right: 4px solid #493131; 
+  margin: 10px;
+  display: block;
+}
+
+body {
+    background-image: url("/static/img/bkg.png");
+    color: #96a27f
 }
