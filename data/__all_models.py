@@ -5,3 +5,5 @@ from data.rent import *
 from data.store import *
 from data.tape import *
 from data.role import *
+from data.employee import *
+from data.client_view import *
