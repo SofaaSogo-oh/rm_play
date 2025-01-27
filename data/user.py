@@ -8,7 +8,7 @@ from sqlalchemy import UniqueConstraint
 from data.db_session import SqlAlchemyBase
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
-from data.role import Role, UserRole
+from data.role import Role, EmployeeRole
 
 class User(SqlAlchemyBase, UserMixin):
     __tablename__ = 'user'
@@ -17,7 +17,6 @@ class User(SqlAlchemyBase, UserMixin):
     login: Mapped[str] = mapped_column(unique=True)
     password: orm.Mapped[str]
     register_date: Mapped[datetime]
-    roles: Mapped[list[Role]] = relationship(secondary="user_role")
 
     def set_password(self, password):
         self.password = generate_password_hash(password)

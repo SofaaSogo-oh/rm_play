@@ -15,9 +15,9 @@ class ClientView(SqlAlchemyBase):
             User.register_date
         ).select_from(User.__table__.join(Client.__table__)))
 
-class PersonClientView(SqlAlchemyBase):
+class PersonView(SqlAlchemyBase):
     __table__ = view(
-        "client_view",
+        "person_view",
         SqlAlchemyBase.metadata,
         sa.select(
             User.id,
@@ -27,5 +27,5 @@ class PersonClientView(SqlAlchemyBase):
             PersonalData.last_name,
             PersonalData.middle_name,
             PersonalData.date_of_birth,
-            PersonalData.phone_namber,
-        ).select_from(User.__table__.join(Client.__table__).join(PersonalData.__table__)))
+            PersonalData.phone_number,
+        ).select_from(User.__table__.join(PersonalData.__table__)))

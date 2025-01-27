@@ -9,9 +9,9 @@ class Role(SqlAlchemyBase):
     name: Mapped[str]
     description: Mapped[str | None]
 
-class UserRole(SqlAlchemyBase):
-    __tablename__ = "user_role"
-    user_id: Mapped[int] = mapped_column(sa.ForeignKey("user.id"), primary_key=True)
+class EmployeeRole(SqlAlchemyBase):
+    __tablename__ = "employee_role"
+    employee_id: Mapped[int] = mapped_column(sa.ForeignKey("employee.id"), primary_key=True)
     role_id: Mapped[int] = mapped_column(sa.ForeignKey("role.id"), primary_key=True)
 
 class Privelege(SqlAlchemyBase):

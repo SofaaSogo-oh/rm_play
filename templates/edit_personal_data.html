@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block header%}
+{% endblock %}
+
+{% block content %}
+<div class="space">
+  <form action="" method="post">
+      {{ form.hidden_tag() }}
+      {% for field in [form.first_name, form.last_name, form.middle_name, form.phone_number, form.date_of_birth]%}
+      <div>
+          {{ field.label }} <br>
+          {{ field()}} <br>
+          {% for error in field.errors %}
+              <div class="alert alert-danger" role="alert">
+                  {{ error }}
+              </div>
+          {% endfor %}
+      {% endfor %}
+      <br>
+      <div>        
+          <p> {{ form.submit(type="submit") }} </p>
+      </div>
+    </div>
+  </form>
+
+    {% if message %}
+        <div class="alert alert-warning">{{ message }} </div>
+    {% endif %}
+</div>
+{% endblock %}

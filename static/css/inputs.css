@@ -53,3 +53,8 @@ input {
       border-bottom-color: #fff;
       border-right-color: #fff;
   }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    accent-color: #ad3235;
+  }

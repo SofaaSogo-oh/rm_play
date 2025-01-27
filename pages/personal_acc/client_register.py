@@ -25,9 +25,10 @@ def register():
             current_user.login = form.login.data
             current_user.set_password(form.password.data)
             current_user.register_date = datetime.datetime.now()
-            session.add(current_user)
             current_client = Client()
             current_client.user = current_user
+            session.add(current_user)
+            session.add(current_client)
             try:
                 session.commit()
             except IntegrityError as e:

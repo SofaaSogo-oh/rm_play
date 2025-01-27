@@ -23,7 +23,7 @@
             <img src="{{ url_for('static', filename='img/logo.png') }}"
                 class="d-inline-block align-top"
                 width="30" height="30" alt="">
-            TabRem
+            RandPlay
         </a>
             {% for element in ["Foo", "Bar"] %}
             <a class="links_in_bar nav-link" href="/{{ element.lower() }}">{{ element }}</a>
@@ -31,7 +31,7 @@
     </div>
     <div class="in_bar">
         {% if current_user.is_authenticated %}
-        <a class="nav-link personal" href="/client_page">{{ current_user.username }}</a>
+        <a class="button-link" href="/personal_page">Личный кабинет</a>
         {% else %}
             <a class="button-link dark-button" href="register">Зарегистрироваться</a>
             <a class="button-link light-button" href="login">Войти</a>

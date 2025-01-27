@@ -16,9 +16,16 @@ def load_user(user_id):
     with db_session.create_session() as session:
         return session.query(User).get(user_id)
 
-@app.route("/")
-def main():
-    return "FOO!"
+@app.route("/", methods=["GET","POST"])
+def hh_page():
+  return render_template("hh.html")
+
+@app.errorhandler(404)
+def page_not_found(e):
+  return render_template('message.html', 
+                         title="Ошибка", 
+                         header="404", 
+                         message="Страница не найдена"), 404
 
 if __name__ == "__main__":
     app.register_blueprint(personal_acc_blueprint)
