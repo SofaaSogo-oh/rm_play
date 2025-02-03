@@ -4,6 +4,7 @@ from data.user import User
 from flask_restful import Api
 from flask_login import LoginManager
 from pages.personal_acc import *
+from pages.management import *
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "FOOBarGashaIsTheBest"
@@ -18,7 +19,7 @@ def load_user(user_id):
 
 @app.route("/", methods=["GET","POST"])
 def hh_page():
-  return render_template("hh.html")
+  return render_template("hh.html", title="RandPlayInfo")
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -29,5 +30,6 @@ def page_not_found(e):
 
 if __name__ == "__main__":
     app.register_blueprint(personal_acc_blueprint)
+    app.register_blueprint(management_blueprint)
     db_session.global_init("randomp_db")
     app.run(debug=True)

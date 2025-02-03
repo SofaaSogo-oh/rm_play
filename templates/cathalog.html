@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Каталог фильмов</h1>
+<div class="space">
+    <h2> Настройки </h2>
+    <form action="" method="post">
+        {{form.hidden_tag()}}
+            {{form.per_page.label}}
+        <div style="display: flex; align-items: center;">
+            {{form.per_page()}}
+            {{form.submit(type="submit")}}
+        </div>
+        <br>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            {% if current_page > 1 %}
+                <a href="{{ url_for('management.cathalog', page=current_page - 1, per_page=per_page) }}" class="button-link dark-button"> Назад</a>
+            {% else %}
+                <span class="button-link dark-button disabled-link"> Назад</span>
+            {% endif %}
+            {% if current_page < total_pages %}
+                <a href="{{ url_for('management.cathalog', page=current_page + 1, per_page=per_page) }}" class="button-link dark-button"> Вперед</a>
+            {% else %}
+                <span class="button-link dark-button disabled-link"> Вперед</span>
+            {% endif %}
+        </div>
+    </form>
+</div>
+
+{% for movie in movies %}
+    <div class="space">
+        <h2>{{movie["name"]}}</h2>
+        <p class="important">{{movie["price"]}}</p>
+        {% if movie["description"] %}
+        <p>{{movie["description"]}}</p>
+        {% endif %}
+    </div>
+{% endfor %}
+
+{% endblock %}

@@ -31,14 +31,22 @@ entity movie as "Фильмы" {
   +price
   ~description
 }
-entity tape as "Кассета" {
+entity tape as "Носитель" {
   +id(pk)
   +movie_id(fk)
+  +tape_type
+}
+entity tape_condition as "Состояние носителя" {
+  +id(pk);
+  +tape_id(fk);
+  +cond_begin;
+  ~cond_end;
+  ~store_id(fk);
+  ~rent_id(fk);
 }
 entity client as "Клиент" {
+  +id
   +user_id(fk)
-  +notification_settings
-  +subscription_status
 }
 entity rent as "Аренда" {
   +id(pk)
@@ -52,6 +60,7 @@ entity rental_store as "Точка проката" {
   ~description
 }
 entity employee as "Сотрудник" {
+  +id
   +user_id(fk)
 }
 
@@ -61,8 +70,9 @@ user -- employee
 client --{ rent
 role }--{ privilege
 role }--{ employee
-tape }-- rent
-tape }-- movie
-rental_store --{ tape
+tape }-u- movie
+rent -l-{ tape_condition
+rental_store --{ tape_condition
+tape_condition -l- tape
 
 @enduml

@@ -88,3 +88,9 @@
     border-bottom-color: #fff;
     border-right-color: #fff;
 }
+
+.disabled-link {
+    cursor: default; /* Убираем курсор при наведении */
+    pointer-events: none; /* Делает элемент некликабельным*/
+    text-decoration: none;
+}

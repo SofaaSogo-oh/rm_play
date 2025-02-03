@@ -19,4 +19,4 @@ class Tape(SqlAlchemyBase):
     movie: Mapped[Movie] = relationship()
     tape_type_id: Mapped[int] = mapped_column(sa.ForeignKey("tape_type.id"))
     tape_type: Mapped[TapeType] = relationship()
-    
+   

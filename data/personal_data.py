@@ -19,7 +19,7 @@ class PersonalData(SqlAlchemyBase):
 
     first_name: Mapped[str]
     last_name: Mapped[str]
-    middle_name: Mapped[str]
+    middle_name: Mapped[str | None]
 
     phone_number: Mapped[str] = mapped_column(phone_number_domain)
     date_of_birth: Mapped[date | None]

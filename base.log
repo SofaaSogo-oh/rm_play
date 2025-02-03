@@ -2162,3 +2162,1135 @@ INFO:werkzeug: * Restarting with stat
 INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 700-156-800
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:21] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:21] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:21] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:21] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:21] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:42] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:42] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:42] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:42] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:43] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:39:43] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:40:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:40:35] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:40:35] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:40:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:40:35] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:40:35] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:08] "[33mGET /foo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:08] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:08] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:08] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:08] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:08] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:13] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:13] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:13] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:13] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:13] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:19] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:19] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:19] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:42:19] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:24] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:24] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:24] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:39] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:39] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:39] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:39] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:39] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:41] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:41] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:41] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:41] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:52] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:52] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:52] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:52] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 04:43:52] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\personal_data.py', reloading
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:50:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:50:09] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:50:09] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:50:09] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:50:09] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:50:09] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:10] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:11] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:11] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:11] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:11] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:29] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:29] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:29] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 07:52:30] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 09:30:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 09:30:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 09:30:12] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 09:30:12] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 09:30:12] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 09:30:13] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape_condition.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\__all_models.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\data\\tape.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:12:56] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:12:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:12:57] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:12:57] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:12:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:12:57] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:12] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:12] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:12] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:13] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:13] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:23] "GET /personal_page HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:23] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:23] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:23] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:24] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:49] "GET /edit_personal_data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:49] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:49] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 10:13:49] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:29:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:29:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:29:58] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:29:58] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:29:58] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:29:58] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:30:02] "[33mGET /foo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:30:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:30:03] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:30:03] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:30:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:30:03] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:08] "[33mGET /foo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:08] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:08] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:08] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:10] "[33mGET /cathalog HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:10] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:10] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:10] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:31:10] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:33:46] "[35m[1mGET /cathalog HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:33:46] "GET /cathalog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:33:46] "GET /cathalog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:33:46] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png&s=e3gRslV8yrejOZ5zERX3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:33:46] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:04] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:04] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:04] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:58] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:58] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:58] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 12:34:58] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:51:31] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:51:31] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:51:31] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:51:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:51:31] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:51:31] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:43] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:43] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:43] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:43] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:43] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:45] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:46] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:46] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:46] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:56:46] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:57:48] "[35m[1mGET /cathalog HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:57:48] "[36mGET /cathalog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:57:48] "[36mGET /cathalog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:57:48] "[36mGET /cathalog?__debugger__=yes&cmd=resource&f=console.png&s=e3gRslV8yrejOZ5zERX3 HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:58:09] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:58:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:58:09] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:58:09] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:58:09] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [31/Jan/2025 13:58:09] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\personal_acc\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:07] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:07] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:07] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:07] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:43] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:43] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:43] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:43] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Feb/2025 00:23:43] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:19] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:19] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:19] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:19] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:23] "[35m[1mGET /cathalog HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:23] "GET /cathalog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:23] "GET /cathalog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:23] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:23] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png&s=F2MSD78IIbTHl1ftVL04 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:59] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:59] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:59] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:41:59] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:42:24] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:42:24] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:42:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:42:24] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:42:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:42:24] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:05] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:05] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:05] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:10] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:10] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:10] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:10] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:10] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:21] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:21] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:21] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:21] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:48] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:48] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:48] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:48] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:43:48] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:05] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:05] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:05] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:07] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:07] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:07] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:07] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:07] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:15] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:15] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:15] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:15] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:44:15] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:38] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:38] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:38] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:38] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:38] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:38] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:54] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:54] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:54] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:54] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:46:54] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:47:55] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:47:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:47:55] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:47:55] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:47:55] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:47:55] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:02] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:03] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:03] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:03] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:05] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:05] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:05] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:06] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:06] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:06] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:06] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:07] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:07] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:07] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:08] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:14] "[33mGET /cathalog/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:14] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:14] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:14] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:14] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:16] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:16] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:16] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:16] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:48:16] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:49] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:49] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:49] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:49] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:50] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:50] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:50] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:50:50] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:48] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:49] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:51:50] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:52:04] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:52:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:52:04] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:52:04] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:52:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:52:04] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:27] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:27] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:27] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:27] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:37] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:37] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:37] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:53:37] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:58:33] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:58:33] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:58:33] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:58:33] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:58:33] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:58:33] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:59:03] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:59:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:59:03] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:59:03] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:59:03] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 15:59:03] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:08] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:08] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:08] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:08] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:08] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:08] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:21] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:21] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:21] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:21] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:28] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:28] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:28] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:28] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:28] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:39] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:39] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:39] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:39] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:00:39] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:33] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:33] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:33] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:33] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:33] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:36] "[33mGET /url_for('management.cathalog',%20page=current_page%20+%201) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:36] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:36] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:37] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:54] "[33mGET /url_for('management.cathalog',%20page=current_page%20+%201) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:54] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:54] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:54] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:54] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:57] "[33mGET /url_for('management.cathalog',%20page=current_page%20-%201) HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:57] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:57] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:05:57] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:07] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:07] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:07] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:07] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:07] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:09] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:09] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:09] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:09] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:09] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:12] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:12] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:12] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:12] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:12] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:14] "[35m[1mGET /cathalog/page/0 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:14] "GET /cathalog/page/0?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:14] "GET /cathalog/page/0?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:14] "GET /cathalog/page/0?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:14] "GET /cathalog/page/0?__debugger__=yes&cmd=resource&f=console.png&s=31Mo4XeYfmzkC7y8jghv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:20] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:20] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:20] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:20] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:20] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:21] "GET /cathalog/page/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:21] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:21] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:21] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:22] "GET /cathalog/page/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:22] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:22] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:22] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:22] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:25] "POST /cathalog/page/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:25] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:25] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:25] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:25] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:27] "POST /cathalog/page/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:27] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:27] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:27] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:31] "POST /cathalog/page/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:31] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:31] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:31] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:31] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:33] "GET /cathalog/page/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:33] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:33] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:33] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:33] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:34] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:34] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:34] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:34] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:35] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:35] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:35] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:35] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:06:35] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:07:50] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:07:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:07:50] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:07:50] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:07:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:07:50] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:14] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:14] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:14] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:14] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:14] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:19] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:19] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:19] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:20] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:20] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:21] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:21] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:21] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:21] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:25] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:25] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:25] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:25] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:25] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:27] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:27] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:27] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:27] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:29] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:29] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:29] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:29] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:29] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:34] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:34] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:34] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:34] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:35] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:36] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:36] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:36] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:36] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:37] "POST /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:37] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:37] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:37] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:41] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:41] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:41] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:08:41] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:10:08] "[35m[1mGET /cathalog HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:10:08] "GET /cathalog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:10:08] "GET /cathalog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:10:08] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:10:08] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png&s=31Mo4XeYfmzkC7y8jghv HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:18] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:18] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:18] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:18] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:18] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:24] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:24] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:24] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:24] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:26] "GET /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:26] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:26] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:26] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:26] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:29] "POST /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:29] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:29] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:29] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:29] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:30] "POST /cathalog/page/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:30] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:30] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:30] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:33] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:33] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:33] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:33] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:18:33] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\package.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:18] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:18] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:19] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:19] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:19] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:26] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:26] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:26] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:26] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:26] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:26] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:27] "GET /cathalog/page/2?per_page= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:27] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:27] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:28] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:28] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:30] "GET /cathalog?per_page= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:30] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:30] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:30] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:35] "POST /cathalog?per_page= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:36] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:36] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:36] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:36] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:37] "GET /cathalog/page/2?per_page= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:37] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:37] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:25:37] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:46] "GET /cathalog/page/2?per_page= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:46] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:46] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:46] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:46] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:52] "GET /cathalog?per_page=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:52] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:52] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:52] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:52] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:54] "POST /cathalog?per_page=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:55] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:55] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:55] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:55] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:57] "POST /cathalog?per_page=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:57] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:57] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:57] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:59] "POST /cathalog?per_page=10 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:59] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:59] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:26:59] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:52] "GET /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:53] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:53] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:53] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:53] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:56] "POST /cathalog HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:56] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:56] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:56] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:58] "GET /cathalog/page/2?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:58] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:58] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:27:58] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:02] "GET /cathalog?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:02] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:02] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:02] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:02] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:05] "GET /cathalog/page/2?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:05] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:05] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:05] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:09] "POST /cathalog/page/2?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:09] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:09] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:09] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:09] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:11] "POST /cathalog/page/2?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:11] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:11] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:11] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:11] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:13] "GET /cathalog?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:13] "[36mGET /static/css/inputs.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:13] "[36mGET /static/css/links.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:13] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:13] "[36mGET /static/img/bkg.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:44] "[35m[1mGET /cathalog?per_page=1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:44] "GET /cathalog?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:44] "GET /cathalog?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:44] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:44] "GET /cathalog?__debugger__=yes&cmd=resource&f=console.png&s=ryJzosfpZloVvr4z3aZo HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Подключение к базе данных по адресу postgresql://postgres:postgres@localhost:5432/randomp_db
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 114-667-252
+INFO:flask_wtf.csrf:The CSRF token is missing.
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:58] "GET /cathalog?per_page=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:58] "GET /static/css/inputs.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:58] "GET /static/css/links.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:58] "GET /static/img/logo.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2025 16:28:58] "GET /static/img/bkg.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\User\\Documents\\rm_play\\pages\\management\\cathalog.py', reloading
+INFO:werkzeug: * Restarting with stat

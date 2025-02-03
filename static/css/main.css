@@ -48,7 +48,19 @@ a.personal:hover {
   display: block;
 }
 
+.space > h2 {
+    color: #d8ac6a;
+}
+
+.important {
+    font-size: 1rem;
+    color: #5287a1;
+    margin-bottom: 12px;
+    flex: 1; /* Описание занимает доступное пространство между другим контентом */
+}
+
 body {
     background-image: url("/static/img/bkg.png");
-    color: #96a27f
+    color: #96a27f;
+    background-color: #1b1616;
 }
