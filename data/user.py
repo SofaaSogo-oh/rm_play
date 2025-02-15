@@ -22,5 +22,4 @@ class User(SqlAlchemyBase, UserMixin):
         self.password = generate_password_hash(password)
 
     def check_password(self, password):
-        if not check_password_hash(self.password, password):
-            return abort(404, message="Password isn't correct")
+        return check_password_hash(self.password, password)

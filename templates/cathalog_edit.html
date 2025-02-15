@@ -35,10 +35,18 @@
                     </div>
                 {% endfor %}
             </div>
-            <p> {{ form.submit(type="submit")}} </p>
+            <div class="bar">
+                <div class="in-bar">
+                    {{ form.submit(type="submit")}} 
+                </div>
+            </div>
+            </form>
+            <form method="post" action="">
+                {{form_del.hidden_tag()}}
+                {{form_del.delete(type="submit")}}
+            </form>
             {% if message %}
                 <div class="alert alert-warning">{{ message }} </div>
             {% endif %}
-        </form>
     </div>
 {% endblock %}

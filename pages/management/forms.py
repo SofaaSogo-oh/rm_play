@@ -17,3 +17,6 @@ class MovieEd(FlaskForm):
     description = TextAreaField("Описание фильма")
     price = FloatField("Цена", validators=[DataRequired(), NumberRange(min=0)])
     submit = SubmitField("Готово!")
+
+class MovieDel(FlaskForm):
+    delete = SubmitField("Удалить")

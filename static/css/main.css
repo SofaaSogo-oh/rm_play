@@ -74,6 +74,10 @@ a:visited {
 .theme-image {
   filter: var(--image-filter);
 }
+div.bar {
+  display: flex;
+  justify-content: space-between;
+}
 div.in-bar {
   display: flex;
   padding: 5px;
