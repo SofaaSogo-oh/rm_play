@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/inputs.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/links.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/els.css')}}"/>
+    <script type="text/javascript" src="{{url_for('static', filename='js/darkmode.js')}}" defer></script>
+    <!-- <script defer>{{'static/js/darkmode.js'|script()|safe}}</script> -->
     {% block header %}
     {% endblock %}
     <title>{{ title }}</title>
@@ -18,10 +21,10 @@
 <header>
 <div id="headerMain">
     <nav class="navbar navbar-dark" style="background-color: #1b1616; position: fixed; width:100%">
-    <div class="in_bar">
+    <div class="in-bar">
         <a class="navbar-brand" href="/">
             <img src="{{ url_for('static', filename='img/logo.png') }}"
-                class="d-inline-block align-top"
+                class="d-inline-block align-top theme-image"
                 width="30" height="30" alt="">
             RandPlay
         </a>
@@ -36,6 +39,9 @@
             <a class="button-link dark-button" href="register">Зарегистрироваться</a>
             <a class="button-link light-button" href="login">Войти</a>
         {% endif %}
+        <button class="button-link dark-button" id="theme-switch">
+            Переключить тему
+        </button>
     </div>
     </nav>
 </div>

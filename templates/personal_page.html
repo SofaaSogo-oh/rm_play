@@ -18,8 +18,18 @@
     Увы, мы пока ничего о Вас не знаем. Введите Ваши пользовательские данные
         <a href="/edit_personal_data" class="button-link light-button"> Ввести данные! </a>
     {% endif %}
-    {% if is_client %}
-        
-    {% endif %}
 </div>
+{% if priveleges%}
+    <div class="space">
+    <h2> Привелегии </h2>
+    {% for privelege in priveleges %}
+        <div class="space">
+            <h3>{{privelege.name}}</h3>
+            {%if privelege.description %}
+            <p>{{privelege.description}}</p>
+            {%endif%}
+        </div>
+    {% endfor %}
+    </div>
+{% endif %}
 {% endblock %}

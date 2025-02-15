@@ -1,6 +1,7 @@
 from .package import *
 from data.personal_data import PersonalData
 from data.client_view import PersonView
+from data.employee_view import UserPriveleges
 from .forms import PersonalDataForm
 
 @personal_acc_blueprint.route("/personal_page", methods=["GET", "POST"])
@@ -9,9 +10,15 @@ def personal_page():
         return redirect("/register")
     curr_id = flask_login.current_user.id
     personal_data = None
+    priveleges = None
     with db_session.create_session() as session:
         personal_data  = session.query(PersonView).get(curr_id)
-    return render_template("personal_page.html", personal_data=personal_data)
+        priveleges = session.query(UserPriveleges).filter(UserPriveleges.id == curr_id and
+                                                          UserPriveleges.name == "users").all()
+    return render_template("personal_page.html", 
+                           personal_data=personal_data, 
+                           priveleges=priveleges,
+                           curr_id=curr_id)
 
 @personal_acc_blueprint.route("/edit_personal_data", methods=["GET", "POST"])
 def edit_personal_data():

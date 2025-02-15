@@ -1,28 +1,30 @@
+@import url(main.css);
+
 /* Общие стили для всех input, включая текстовые поля и кнопки */
 input {
     padding: 4px;
     border-width: 2px;
     border-style: solid;
-    border-top-color: #96a27f;
-    border-left-color: #96a27f;
-    border-bottom-color: #493131;
-    border-right-color: #493131;
-    background-color: #2c1f1f;
+    border-top-color: var(--primary-color);
+    border-left-color: var(--primary-color);
+    border-bottom-color: var(--secondary-color);
+    border-right-color: var(--secondary-color);
+    background-color: var(--base-color);
     font-family: "MS Sans Serif", sans-serif;
     font-size: 12px;
-    box-shadow: inset 1px 1px #0e0d15;
-    color: #96a27f;
+    box-shadow: inset 1px 1px var(--semi-bkg-color);
+    color: var(--text-color);
     box-sizing: border-box;
   }
   
 
 input:focus {
     outline: none; /* Убираем дефолтную обводку фокуса */
-    border-top-color: #75234e;
-    border-left-color: #75234e;
-    border-bottom-color: #ad3235;
-    border-right-color: #ad3235;
-    background-color: #0e0d15;
+    border-top-color: var(--primary-accent-color);
+    border-left-color: var(--primary-accent-color);
+    border-bottom-color: var(--secondary-accent-color);
+    border-right-color: var(--secondary-accent-color);
+    background-color: var(--primary-color);
 }
 
 /* Стили для текстовых полей (text, password, email и т.д.) */
@@ -56,5 +58,5 @@ button:hover {
 
 input[type="checkbox"],
 input[type="radio"] {
-  accent-color: #ad3235;
+  accent-color: var(--primary-accent-color);
 }

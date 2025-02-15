@@ -5,6 +5,7 @@ from flask_restful import Api
 from flask_login import LoginManager
 from pages.personal_acc import *
 from pages.management import *
+import jinja2, os
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "FOOBarGashaIsTheBest"
@@ -27,6 +28,13 @@ def page_not_found(e):
                          title="Ошибка", 
                          header="404", 
                          message="Страница не найдена"), 404
+
+@app.template_filter('script')
+def script(script_path, data=None):
+    path, filename = os.path.split(script_path)
+    return  jinja2.Environment(
+        loader=jinja2.FileSystemLoader(path or './')
+    ).get_template(filename).render(data = data)
 
 if __name__ == "__main__":
     app.register_blueprint(personal_acc_blueprint)

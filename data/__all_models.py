@@ -7,4 +7,5 @@ from data.tape import *
 from data.role import *
 from data.employee import *
 from data.client_view import *
+from data.employee_view import *
 from data.tape_condition import *

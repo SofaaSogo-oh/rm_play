@@ -27,12 +27,24 @@
     </form>
 </div>
 
+{% if check_privelege %}
+    <div class="space">
+        <h2>Тут мог бы быть Ваш фильм</h2>
+        <a href="{{url_for('management.cathalog_edit')}}" class="button-link light-button">Добавить!</a>
+    </div>
+{% endif %}
+
 {% for movie in movies %}
     <div class="space">
         <h2>{{movie["name"]}}</h2>
         <p class="important">{{movie["price"]}}</p>
         {% if movie["description"] %}
         <p>{{movie["description"]}}</p>
+        {% endif %}
+        {% if check_privelege %}
+        <a href="{{url_for('management.cathalog_edit', id=movie['id'])}}" class="button-link dark-button">
+            Редактировать
+        </a>
         {% endif %}
     </div>
 {% endfor %}
