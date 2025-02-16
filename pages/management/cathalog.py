@@ -29,11 +29,7 @@ def cathalog(page):
         movies = session.query(Movie).limit(per_page).offset(offset)
         total_cnt = session.query(Movie).count()
         check_privelege = (
-            session.query(UserPriveleges)
-            .filter(
-                (UserPriveleges.id == curr_id) & (UserPriveleges.name == "cathalog")
-            )
-            .first()
+            UserPriveleges.check_user_privelege(curr_id, "cathalog", session)
             if curr_id
             else None
         )
@@ -64,13 +60,17 @@ def cathalog_edit():
     edit_id = request.args.get("id", type=int)  # Убираем значение по умолчанию None, т.к. обрабатывается ниже
     movie = Movie()  # Объявляем переменную movie
     form = MovieEd()
+    form_del=MovieDel()
     render_page = lambda msg=None: render_template(
-        "cathalog_edit.html", message=msg, form=form, form_del=MovieDel()
+        "cathalog_edit.html", message=msg, form=form, form_del=form_del
     )
     edit_movie = lambda session: session.query(Movie).get(edit_id) 
     def movie_none_chk(movie):
         if movie is None:
             raise Exception("Фильм не найден")
+    def commit_dialog(session):
+        session.commit()
+        return render_page("Все окей")
     # Находим инфу по фильму, заполняем поля
     if request.method == "GET":
         with db_session.create_session() as session:
@@ -82,6 +82,9 @@ def cathalog_edit():
             except Exception as e:
                 return render_page(f"Ошибка: {e}")
         return render_page()
+
+
+    # Редактируем
     if request.method == "POST":
         if form.validate_on_submit() and form.submit.data:
             with db_session.create_session() as session:
@@ -90,9 +93,21 @@ def cathalog_edit():
                     movie_none_chk(movie)
                     form.populate_obj(movie)
                     if not edit_id: session.add(movie)
-                    session.commit()
-                    return render_page("Все окей")
+                    return commit_dialog(session)
                 except Exception as e:
                     session.rollback()
                     return render_page(f"Ошибка: {e}")
             return render_page()
+
+    # Проверяем удаление 
+    if request.method == "POST":
+        if form_del.validate_on_submit() and form_del.delete.data:
+            with db_session.create_session() as session:
+                try:
+                    movie = edit_movie(session)
+                    movie_none_chk(movie)
+                    session.delete(movie)
+                    return commit_dialog(session)
+                except Exception as e:
+                    session.rollback()
+                    return render_page(f"Ошибка: {e}")

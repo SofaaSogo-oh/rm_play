@@ -39,12 +39,14 @@
                 <div class="in-bar">
                     {{ form.submit(type="submit")}} 
                 </div>
+                <div class="in-bar">
+                    <form method="post" action="">
+                        {{form_del.hidden_tag()}}
+                        {{form_del.delete(type="submit")}}
+                    </form>
+                </div>
             </div>
             </form>
-            <!-- <form method="post" action="">
-                {{form_del.hidden_tag()}}
-                {{form_del.delete(type="submit")}}
-            </form> -->
             {% if message %}
                 <div class="alert alert-warning">{{ message }} </div>
             {% endif %}
