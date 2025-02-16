@@ -21,3 +21,8 @@ class UserPriveleges(SqlAlchemyBase):
                 join(Role.__table__).
                 join(RolePrivelege.__table__).
                 join(Privelege.__table__)))
+    
+    def check_user_privelege(user_id, privelege_name, session):
+        return session.query(UserPriveleges).filter(
+            (UserPriveleges.id == user_id) & (UserPriveleges.name == privelege_name)
+        ).first()
