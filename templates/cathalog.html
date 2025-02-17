@@ -1,18 +1,17 @@
 {% extends "base.html" %}
-{% from "pagination.html" import pagination, add_element, 
-    cond_field,  element_view %}
+{% import "pagination.html" as manip %}
 
 {% block content %}
 <h1>Каталог фильмов</h1>
-{{ pagination(current_page, total_pages, "management.cathalog", per_page, form) }}
+{{ manip.pagination(current_page, total_pages, "management.cathalog", per_page, form) }}
 
-{{ add_element(check_privelege, "Тут мог бы быть Ваш Фильм", "management.cathalog_edit") }}
+{{ manip.add_element(check_privelege, "Тут мог бы быть Ваш Фильм", "management.cathalog_edit") }}
 
 {% for movie in movies%}
-    {% call() element_view(movie, check_privelege, "management.cathalog_edit") %}
+    {% call() manip.element_view(movie, check_privelege, "management.cathalog_edit") %}
         <h2>{{movie["name"]}}</h2>
-        {{ cond_field(movie["price"], "important")}}
-        {{ cond_field(movie["description"])}}
+        {{ manip.cond_field(movie["price"], "important")}}
+        {{ manip.cond_field(movie["description"])}}
     {% endcall %}
 {% endfor %}
 

@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "form_tools.html" as tools %}
 
 {% block header%}
 {% endblock %}
@@ -8,47 +9,11 @@
     <div class="space">
         <form action="" method="post">
             {{ form.hidden_tag() }}
-            <div>
-                {{ form.name.label }} <br>
-                {{ form.name() }} <br>
-                {% for error in form.name.errors %}
-                    <div class="alert alert-danger" role="alert">
-                        {{ error }}
-                    </div>
-                {% endfor %}
-            </div>
-            <div>
-                {{ form.description.label }} <br>
-                {{ form.description() }} <br>
-                {% for error in form.description.errors %}
-                    <div class="alert alert-danger" role="alert">
-                        {{ error }}
-                    </div>
-                {% endfor %}
-            </div>
-            <div>
-                {{ form.price.label }} <br>
-                {{ form.price() }} <br>
-                {% for error in form.price.errors %}
-                    <div class="alert alert-danger" role="alert">
-                        {{ error }}
-                    </div>
-                {% endfor %}
-            </div>
-            <div class="bar">
-                <div class="in-bar">
-                    {{ form.submit(type="submit")}} 
-                </div>
-                <div class="in-bar">
-                    <form method="post" action="">
-                        {{form_del.hidden_tag()}}
-                        {{form_del.delete(type="submit")}}
-                    </form>
-                </div>
-            </div>
-            </form>
-            {% if message %}
-                <div class="alert alert-warning">{{ message }} </div>
-            {% endif %}
+            {{tools.display_form_field(form.name)}}
+            {{tools.display_form_field(form.description)}}
+            {{tools.display_form_field(form.price)}}
+            {{tools.edit_or_delete(form, form_del)}}
+        </form>
+            {{tools.show_message_if_need(message)}}
     </div>
 {% endblock %}

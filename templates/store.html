@@ -1,6 +1,20 @@
 {% extends "base.html" %}
-{% from 'pagination.html' import pagination %}
+{% import "pagination.html" as manip %}
 
 {% block content %}
 <h1>Список точек проката</h1>
+{{manip.pagination(current_page,
+     total_pages,
+     "management.store",
+     per_page,
+     settings_form)}}
+
+{{manip.add_element(check_privelege, "Открылся новый прокат? Мне уже не терпится туда сходить!")}}
+
+{% for store in stores %}
+    {% call() manip.element_view(store, check_privelege, "management.store_edit") %}
+    <h2>{{store["name"]}}</h2>
+    {{ manip.cond_field(store["address"], "important")}}
+{% endfor %}
+
 {% endblock %}

@@ -1,0 +1,35 @@
+{% macro show_message_if_need(message)%}
+    {% if message %}
+        <div class="alert alert-warning">{{ message }} </div>
+    {% endif %}
+{% endmacro %}
+
+{% macro display_form_field(field) %}
+    <div>
+        {{ field.label }} <br>
+        {{ field() }} <br>
+        {% for error in field.errors %}
+            <div class="alert alert-danger" role="alert">
+                {{ error }}
+            </div>
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% macro edit(form) %}
+    <div class="in-bar">
+        {{ form.submit(type="submit")}} 
+    </div>
+{% endmacro %}
+
+{% macro edit_or_delete(form, form_del) %}
+    <div class="bar">
+        {{edit(form)}}
+        <div class="in-bar">
+            <form method="post" action="">
+                {{form_del.hidden_tag()}}
+                {{form_del.delete(type="submit")}}
+            </form>
+        </div>
+    </div>
+{% endmacro %}
