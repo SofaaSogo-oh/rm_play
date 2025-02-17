@@ -17,7 +17,7 @@ class TapeCondition(SqlAlchemyBase):
     cond_begin: Mapped[datetime]
     cond_end: Mapped[datetime | None]
 
-    tape_id: Mapped[int | None] = mapped_column(sa.ForeignKey("tape.id"))
+    tape_id: Mapped[int] = mapped_column(sa.ForeignKey("tape.id"))
     tape: Mapped[Tape] = relationship()
 
     store_id: Mapped[int | None] = mapped_column(sa.ForeignKey("store.id"))

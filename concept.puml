@@ -50,8 +50,6 @@ entity client as "Клиент" {
 }
 entity rent as "Аренда" {
   +id(pk)
-  +date_beg
-  +date_end
   +client_id(fk)
 }
 entity rental_store as "Точка проката" {

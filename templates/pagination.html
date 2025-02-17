@@ -1,0 +1,56 @@
+{% macro pagination(current_page, total_pages, target_link, per_page, settings_form) %}
+<div class="space">
+    <h2>Настройки</h2>
+    <form action="" method="post">
+        {{settings_form.hidden_tag()}}
+        {{settings_form.per_page.label}}
+        <div style="display: flex; align-items: center;">
+            {{settings_form.per_page()}}
+            {{settings_form.submit(type="submit")}}
+        </div>
+        <br>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+            {% if current_page > 1 %}
+                <a href="{{ url_for(target_link, page=current_page - 1, per_page=per_page) }}" class="button-link dark-button"> Назад</a>
+            {% else %}
+                <span class="button-link dark-button disabled-link"> Назад</span>
+            {% endif %}
+            {% if current_page < total_pages %}
+                <a href="{{ url_for(target_link, page=current_page + 1, per_page=per_page) }}" class="button-link dark-button"> Вперед</a>
+            {% else %}
+                <span class="button-link dark-button disabled-link"> Вперед</span>
+            {% endif %}
+        </div>
+    </form>
+</div>
+{% endmacro %}
+
+{% macro add_element(check_privelege, hh, redir_link) %}
+{% if check_privelege %}
+    <div class="space">
+        <h2>{{ hh }}</h2>
+        <a href="{{url_for(redir_link)}}" class="button-link light-button">Добавить!</a>
+    </div>
+{% endif %}
+{% endmacro %}
+
+{% macro edit_button(check_privelege, edit_url, element_id) %}
+    {% if check_privelege %}
+        <a href="{{url_for(edit_url, id=element_id)}}" class="button-link dark-button">
+            Редактировать
+        </a>
+    {% endif %}
+{% endmacro %}
+
+{% macro cond_field(field, class="") %}
+    {% if field %}
+        <p class="{{class}}"> {{field}} </p>
+    {% endif %}
+{% endmacro %}
+
+{% macro element_view(element, check_privelege, edit_url, element_id=element["id"]) %}
+    <div class="space">
+        {{caller()}}
+        {{edit_button(check_privelege, edit_url, element_id)}}
+    </div>
+{% endmacro %}

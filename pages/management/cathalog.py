@@ -2,7 +2,6 @@ from .package import *
 from data.movie import Movie
 from .forms import ViewCathalog, MovieEd, MovieDel
 from data.employee_view import UserPriveleges
-from werkzeug.datastructures import MultiDict
 
 
 @management_blueprint.route("/cathalog", methods=["GET", "POST"], defaults={"page": 1})

@@ -9,3 +9,4 @@ from data.employee import *
 from data.client_view import *
 from data.employee_view import *
 from data.tape_condition import *
+from data.tape_view import *

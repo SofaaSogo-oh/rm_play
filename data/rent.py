@@ -9,8 +9,6 @@ class Rent(SqlAlchemyBase):
     __tablename__ = "rent"
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    date_beg: Mapped[datetime]
-    date_end: Mapped[datetime]
 
     client_id: Mapped[int] = mapped_column(sa.ForeignKey("client.id"))
     client: Mapped[Client] = relationship()
