@@ -9,12 +9,13 @@
      per_page,
      settings_form)}}
 
-{{manip.add_element(check_privelege, "Открылся новый прокат? Мне уже не терпится туда сходить!")}}
+{{manip.add_element(check_privelege, "Открылся новый прокат? Мне уже не терпится туда сходить!", "management.store_edit")}}
 
 {% for store in stores %}
     {% call() manip.element_view(store, check_privelege, "management.store_edit") %}
-    <h2>{{store["name"]}}</h2>
-    {{ manip.cond_field(store["address"], "important")}}
+        <h2>{{store["address"]}}</h2>
+        {{ manip.cond_field(store["description"], "important")}}
+    {% endcall %}
 {% endfor %}
 
 {% endblock %}

@@ -80,7 +80,6 @@ div.bar {
 }
 div.in-bar {
   display: flex;
-  padding: 5px;
 }
 #headerMain {
     height: 100px;

@@ -18,5 +18,10 @@ class MovieEd(FlaskForm):
     price = FloatField("Цена", validators=[DataRequired(), NumberRange(min=0)])
     submit = SubmitField("Готово!")
 
-class MovieDel(FlaskForm):
+class StoreEd(FlaskForm):
+    address = StringField("Адрес", validators=[DataRequired()])
+    description = TextAreaField("Описание точки проката")
+    submit = SubmitField("Готово!")
+
+class DelForm(FlaskForm):
     delete = SubmitField("Удалить")

@@ -5,11 +5,11 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Редактор фильма</h1>
+    <h1>Редактор точки проката</h1>
     <div class="space">
         <form action="" method="post">
             {{ form.hidden_tag() }}
-            {% for field in [form.name, form.description, form.price] %}
+            {% for field in [form.address, form.description] %}
                 {{tools.display_form_field(field)}}
             {% endfor %}
             {{tools.edit_or_delete(form, form_del)}}

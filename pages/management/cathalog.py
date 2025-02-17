@@ -1,6 +1,6 @@
 from .package import *
 from data.movie import Movie
-from .forms import ViewCathalog, MovieEd, MovieDel
+from .forms import ViewCathalog, MovieEd, DelForm
 from data.employee_view import UserPriveleges
 
 
@@ -59,7 +59,7 @@ def cathalog_edit():
     edit_id = request.args.get("id", type=int)  # Убираем значение по умолчанию None, т.к. обрабатывается ниже
     movie = Movie()  # Объявляем переменную movie
     form = MovieEd()
-    form_del=MovieDel()
+    form_del=DelForm()
     render_page = lambda msg=None: render_template(
         "cathalog_edit.html", message=msg, form=form, form_del=form_del
     )
